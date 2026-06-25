@@ -194,7 +194,9 @@ index.html
 All business logic (`calculateRawBalances`, `minimizeDebts`, `buildBalanceSentences`) is isolated at the top of `App.tsx` — ready to extract to `backend/src/logic/` if you want a true Express split.
 
 ---
+## video
 
+https://drive.google.com/file/d/1xTNnYIrzy2L2x_rW9Qst25dB8SeUOavx/view?usp=sharing
 
 ## 🛣 Roadmap
 
