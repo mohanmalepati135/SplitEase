@@ -159,22 +159,7 @@ type LedgerEntry = {
 
 ---
 
-## 🧪 Test Data (ships with first load)
 
-Group: **Bangkok Weekenders**
-
-Participants:
-- Amina Okoro — amina@okoro.io
-- Rahul Sen — rahul.sen@mail.com
-- Sneha Patil
-
-Expenses:
-1. Airport dinner — ramen — $74.50 — paid by Sneha — equal split
-2. Scooter rental day 2 — $38.00 — paid by Amina — 50/30/20 %
-
-You can clear everything via “Reset ledger” or delete participants/expenses individually.
-
----
 
 ## ✅ PRD Checklist
 
@@ -209,6 +194,7 @@ index.html
 All business logic (`calculateRawBalances`, `minimizeDebts`, `buildBalanceSentences`) is isolated at the top of `App.tsx` — ready to extract to `backend/src/logic/` if you want a true Express split.
 
 ---
+
 
 ## 🛣 Roadmap
 
